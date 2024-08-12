@@ -70,6 +70,7 @@ font-size: 1.2rem;
 width: 1140px;
 margin: auto;
 background-color: rgba(0, 0, 0, 0.6);
+box-shadow: rgba(255, 0, 0, 0.35) 0px 5px 15px;
 padding: 20px;
 border-radius: 10px;
 }
