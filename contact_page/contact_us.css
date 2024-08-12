@@ -1,0 +1,168 @@
+.container {
+    width: 1140px;
+    margin: auto;
+}
+body {
+font-family: Arial, sans-serif;
+margin: 0;
+padding: 0;
+line-height: 1.6;
+color: #fff;
+background-color: #e4dbdb;
+background-position: center;
+}
+
+.menu ul {
+    display: flex;
+    justify-content: start;
+}
+
+.menu li {
+    list-style: none;
+    line-height: 90px;
+}
+
+.search_input {
+    height: 50px;
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+.menu a {
+    font-size: 20px;
+    color: rgb(123, 123, 123);
+    padding: 20px 25px;
+}
+.menu a:hover{
+    color: #20c997;
+    text-decoration: none;
+}
+.p-0{
+    padding: 0px 0px;
+}
+
+.form-group label{
+  font-weight: 500;
+}
+
+.form-group input{
+    outline: auto;
+    border: 2px solid black;
+}
+
+.contact-header {
+background-color: rgba(0, 0, 0, 0.6);
+padding: 50px 0;
+margin-bottom: 20px;
+color: #ffd700; /* Gold color */
+}
+
+.contact-header h1 {
+margin-bottom: 10px;
+font-size: 3rem;
+}
+
+.contact-header p {
+font-size: 1.2rem;
+}
+
+.contact-section {
+width: 1140px;
+margin: auto;
+background-color: rgba(0, 0, 0, 0.6);
+padding: 20px;
+border-radius: 10px;
+}
+
+.contact-section h2 {
+margin-top: 20px;
+font-size: 2rem;
+color: #ffd700; /* Gold color */
+}
+
+.contact-section p {
+font-size:20px;
+color: #ddd;
+margin-top: 10px;
+}
+
+.form-group {
+margin-bottom: 15px;
+}
+
+.form-group label {
+font-size: 1rem;
+font-weight: bold;
+color: #ffd700; /* Gold color */
+}
+
+.form-group input,
+.form-group textarea {
+width: 100%;
+padding: 10px;
+margin-top: 5px;
+border: 1px solid #ccc;
+border-radius: 5px;
+background-color: #a9a5a5;
+color: #fff;
+}
+
+.btn-primary {
+background-color: #ffd700;
+border: none;
+padding: 10px 20px;
+border-radius: 5px;
+color: #333;
+}
+
+.footer {
+    background-color: #a9a5a5;
+padding: 20px 0;
+margin-top: 40px;
+color: #3b3930;
+}
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 0 20px;
+}
+
+.footer-column {
+    width: 30%;
+}
+
+.footer-column h4 {
+    color: #000000;
+    margin-bottom: 10px;
+    font-size: 18px;
+    border-bottom: 2px solid #555;
+    padding-bottom: 5px;
+}
+
+.footer-column p, .footer-column a {
+    margin: 5px 0;
+    color: #000000;
+    text-decoration: none;
+}
+
+.footer-column a:hover {
+    color: #000000;
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding-top: 10px;
+    border-top: 1px solid #555;
+    margin-top: 20px;
+}
+
+.footer-bottom p {
+    color: #000000;
+    margin: 0;
+    font-size: 14px;
+}
+.footer-column i{
+    margin-left: 10px;
+}

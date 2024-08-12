@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jewelry Store - Home</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="cart-scetion.css">
+</head>
+
+<body>
+
+    <div class="row">
+        <div class="col-1 p-0">&nbsp;</div>
+        <div class="col-2 logo p-0">
+
+            <a class="navbar_brand" href="#">
+                <img src="/imgs/logo.jpg" class="logo-img" style="height: 80px;margin-top: 10px;">
+            </a>
+        </div>
+        <div class="col-8 menu p-0">
+            <ul>
+                <li><a href="/jawellery-website.html">Home</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="/contact_page/contact_us.html">Contact Us</a></li>
+                <li><a href="/enquiry_section/enquiry.html">Enquiry Form </a></li>
+                <li><input type="text" class="search_input" placeholder="Search products..."></li>
+                <li><a  href="/cart_section/cart_section.html"><i class="fa-solid fa-cart-shopping fa-fw"></i></a></li>
+            </ul>
+        </div>
+    </div>
+ 
+    <div class="border-box">
+        <div class="container mt-5">
+            <h2 class="text-center mb-4">Checkout</h2>
+            <form>
+                <h4 class="mb-3">Billing Address</h4>
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <label for="firstName">First name</label>
+                        <input type="text" class="form-control" id="firstName" placeholder="" required>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <label for="lastName">Last name</label>
+                        <input type="text" class="form-control" id="lastName" placeholder="" required>
+                    </div>
+                </div>
+
+                <div class="mb-3">
+                    <label for="username">Username</label>
+                    <div class="input-group">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text">@</span>
+                        </div>
+                        <input type="text" class="form-control" id="username" placeholder="Username" required>
+                    </div>
+                </div>
+
+                <div class="mb-3">
+                    <label for="email">Email <span class="text-muted">(Optional)</span></label>
+                    <input type="email" class="form-control" id="email" placeholder="you@example.com" required>
+                </div>
+
+                <div class="mb-3">
+                    <label for="address">Address</label>
+                    <input type="text" class="form-control" id="address" placeholder="1234 Main St" required>
+                </div>
+
+                <div class="mb-3">
+                    <label for="address2">Address 2 <span class="text-muted">(Optional)</span></label>
+                    <input type="text" class="form-control" id="address2" placeholder="Apartment or suite">
+                </div>
+
+                <div class="row">
+                    <div class="col-md-5 mb-3">
+                        <label for="country">Country</label>
+                        <select class="custom-select d-block w-100" id="country" required>
+                            <option value="">Choose...</option>
+                            <option value="delhi">Delhi</option>
+                            <option value="mumbai">Mumbai</option>
+                            <option value="kolkata">Kolkata</option>
+                            <option value="chennai">Chennai</option>
+                            <option value="bengaluru">Bengaluru</option>
+                            <option value="hyderabad">Hyderabad</option>
+                            <option value="ahmedabad">Ahmedabad</option>
+                            <option value="pune">Pune</option>
+                            <option value="jaipur">Jaipur</option>
+                            <option value="surat">Surat</option>
+                            <option value="lucknow">Lucknow</option>
+                            <option value="kanpur">Kanpur</option>
+                            <option value="nagpur">Nagpur</option>
+                            <option value="indore">Indore</option>
+                            <option value="thiruvananthapuram">Thiruvananthapuram</option>
+                            <option value="bhopal">Bhopal</option>
+                            <option value="patna">Patna</option>
+                            <option value="ludhiana">Ludhiana</option>
+                            <option value="agra">Agra</option>
+                            <option value="kochi">Kochi</option>
+                        </select>
+                    </div>
+                    <div class="col-md-4 mb-3">
+                        <label for="state">State</label>
+                        <select class="custom-select d-block w-100" id="state" required>
+                            <option value="">Choose...</option>
+                            <option value="andhra_pradesh">Andhra Pradesh</option>
+                            <option value="arunachal_pradesh">Arunachal Pradesh</option>
+                            <option value="assam">Assam</option>
+                            <option value="bihar">Bihar</option>
+                            <option value="chhattisgarh">Chhattisgarh</option>
+                            <option value="goa">Goa</option>
+                            <option value="gujarat">Gujarat</option>
+                            <option value="haryana">Haryana</option>
+                            <option value="himachal_pradesh">Himachal Pradesh</option>
+                            <option value="jharkhand">Jharkhand</option>
+                            <option value="karnataka">Karnataka</option>
+                            <option value="kerala">Kerala</option>
+                            <option value="madhya_pradesh">Madhya Pradesh</option>
+                            <option value="maharashtra">Maharashtra</option>
+                            <option value="manipur">Manipur</option>
+                            <option value="meghalaya">Meghalaya</option>
+                            <option value="mizoram">Mizoram</option>
+                            <option value="nagaland">Nagaland</option>
+                            <option value="odisha">Odisha</option>
+                            <option value="punjab">Punjab</option>
+                        </select>
+                    </div>
+                    <div class="col-md-3 mb-3">
+                        <label for="zip">Zip</label>
+                        <input type="text" class="form-control" id="zip" placeholder="" required>
+                    </div>
+                </div>
+
+                <hr class="mb-4">
+
+                <h4 class="mb-3">Payment</h4>
+
+                <div class="d-block my-3">
+
+                    <input id="credit" name="paymentMethod" type="radio" checked required>
+                    <label class="custom-control-label" for="credit">Credit card</label> <br>
+
+                    <input id="debit" name="paymentMethod" type="radio" required>
+                    <label class="custom-control-label" for="debit">Debit card</label><br>
+
+                    <input id="paypal" name="paymentMethod" type="radio" required>
+                    <label class="custom-control-label" for="paypal">PayPal</label><br>
+
+                </div>
+
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <label for="cc-name">Name on card</label>
+                        <input type="text" class="form-control" id="cc-name" placeholder="" required>
+                        <small class="text-muted">Full name as displayed on card</small>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <label for="cc-number">Credit card number</label>
+                        <input type="text" class="form-control" id="cc-number" placeholder="" required>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-3 mb-3">
+                        <label for="cc-expiration">Expiration</label>
+                        <input type="text" class="form-control" id="cc-expiration" placeholder="" required>
+                    </div>
+                    <div class="col-md-3 mb-3">
+                        <label for="cc-cvv">CVV</label>
+                        <input type="text" class="form-control" id="cc-cvv" placeholder="" required>
+                    </div>
+                </div>
+                <div class="button">
+                    <button type="submit" class="btn btn-primary btn-block">Submit</button>
+                </div>
+
+              
+            </form>
+        </div>
+    </div>
+    </section>
+    <footer class="footer">
+        <section class="container p-0">
+            <div class="footer-container p-0">
+                <div class="footer-column">
+                    <h4 class="h4tage">About Us</h4>
+                    <p>We offer a wide range of luxury jewelry crafted with the finest materials.</p>
+                </div>
+                <div class="footer-column">
+                    <h4>Contact Us</h4>
+                    <p>Email: info@jewelrywebsite.com</p>
+                    <p>Phone: +123 456 7890</p>
+                </div>
+                <div class="footer-column">
+                    <h4>Follow Us</h4>
+                    <a href="#">Facebook<i class="fa-brands fa-facebook"></i></a><br>
+                    <a href="#">Instagram<i class="fa-brands fa-instagram"></i></a><br>
+                    <a href="#">Twitter<i class="fa-brands fa-twitter"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Jewelry Website. All rights reserved.</p>
+            </div>
+        </section>
+    </footer>
+</div>
+
+
+</body>
+
+</html>

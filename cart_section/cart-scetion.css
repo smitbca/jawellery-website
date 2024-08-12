@@ -1,0 +1,130 @@
+
+.mb-4{margin-bottom: 1.5rem !important;}
+.p-0{padding: 0px !important;}
+body {
+    font-family: Arial, sans-serif;
+    background-size: cover;
+    background-position: center;
+    background-color: #e4dbdb;
+}
+.border-box{
+    background: linear-gradient(to bottom right, #0000ff 0%, #ff6600 83%);
+    border-radius: 20px;
+    width: 1140px;
+    margin: auto;
+}
+
+.container label{
+    font-weight: 700;
+    color: #f8f9fa;
+    height: auto;
+    overflow: hidden;
+}
+
+.container input{
+    outline:none;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+.menu ul {
+    display: flex;
+    justify-content: start;
+}
+
+.menu li {
+    list-style: none;
+    line-height: 90px;
+}
+
+.search_input {
+    height: 50px;
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+.menu a {
+    font-size: 20px;
+    color: rgb(123, 123, 123);
+    padding: 20px 25px;
+}
+.menu a:hover{
+    color: #20c997;
+    text-decoration: none;
+}
+.p-0{
+    padding: 0px 0px;
+}
+.input-group-text{
+    outline:none;
+    border: 2px solid black;
+    height: 38px;
+}
+.button{
+    margin: auto;
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+.button .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+     width: 100px;
+     margin: auto;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+}
+
+.footer {
+    color: #000000;
+    padding: 20px 0;
+    margin-top: 50px;
+    width: 100%;
+    background-color: #a9a5a5;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 0 20px;
+}
+
+.footer-column {
+    width: 30%;
+}
+
+.footer-column h4 {
+    margin-bottom: 10px;
+    font-size: 18px;
+    border-bottom: 2px solid #555;
+    padding-bottom: 5px;
+}
+
+.footer-column p, .footer-column a {
+    margin: 5px 0;
+    color: #000000;    
+    text-decoration: none;
+}
+
+.footer-column a:hover {
+    color: #000000;
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding-top: 10px;
+    border-top: 1px solid #2c0909;
+    margin-top: 20px;
+}
+.footer-column i{
+    margin-left: 10px;
+}
+.footer-bottom p {
+    color: #000000;
+    margin: 0;
+    font-size: 14px;
+}
