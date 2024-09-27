@@ -54,7 +54,7 @@ background-position: center;
 background-color: rgba(0, 0, 0, 0.6);
 padding: 50px 0;
 margin-bottom: 20px;
-color: #ffd700; /* Gold color */
+color: #000000; /* Gold color */
 }
 
 .contact-header h1 {
@@ -78,7 +78,7 @@ border-radius: 10px;
 .contact-section h2 {
 margin-top: 20px;
 font-size: 2rem;
-color: #ffd700; /* Gold color */
+color: #000000; /* Gold color */
 }
 
 .contact-section p {
@@ -94,7 +94,7 @@ margin-bottom: 15px;
 .form-group label {
 font-size: 1rem;
 font-weight: bold;
-color: #ffd700; /* Gold color */
+color: #000000; /* Gold color */
 }
 
 .form-group input,
@@ -109,11 +109,11 @@ color: #fff;
 }
 
 .btn-primary {
-background-color: #ffd700;
+background-color: #000000;
 border: none;
 padding: 10px 20px;
 border-radius: 5px;
-color: #333;
+color: #ffffff;
 }
 
 .footer {
