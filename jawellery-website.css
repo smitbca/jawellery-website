@@ -158,3 +158,35 @@ body {
     margin: 0;
     font-size: 14px;
 }
+/* css for about page  */
+
+/* Basic styling for the About Us page */
+header {
+    background: #007bff;
+    color: white;
+    padding: 80px 0;
+  }
+  
+  .about-section img {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .mission-section {
+    background-color: #f8f9fa;
+  }
+  
+  .team-section .team-member {
+    margin-bottom: 30px;
+  }
+  
+  .team-section img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  footer {
+    background-color: #f8f9fa;
+    border-top: 1px solid #e7e7e7;
+  }
+  
