@@ -2,8 +2,9 @@
     width: 1140px;
     margin: auto;
 }
+
 .border-box{
-    background: linear-gradient(to bottom right, #0000ff 0%, #ff6600 83%);
+    background-color:#324c39;
     border-radius: 20px;
     width: 1140px;
     margin: auto;
@@ -26,7 +27,7 @@ width: 100px;
 }
 
 h2{
-    color: black;
+    color: rgb(255, 255, 255);
     font-weight: 600;
     text-align: center;
 }
@@ -35,9 +36,9 @@ font-family: Arial, sans-serif;
 margin: 0;
 padding: 0;
 line-height: 1.6;
-color: #fff;
+color: #000000;
 background-position: center;
-background-color: #e4dbdb;
+background-color: #ba9c73;
 }
 
 .menu ul {
@@ -58,7 +59,7 @@ background-color: #e4dbdb;
 
 .menu a {
     font-size: 20px;
-    color: rgb(123, 123, 123);
+    color: rgb(255, 255, 255);
     padding: 20px 25px;
 }
 .menu a:hover{
@@ -73,7 +74,7 @@ background-color: #e4dbdb;
     padding: 20px 0;
     margin-top: 50px;
     width: 100%;
-    background-color: #a9a5a5;
+    background-color: #ba9c73;
 }
 
 .footer-container {

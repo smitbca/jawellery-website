@@ -11,7 +11,7 @@ body {
     font-family: Arial, sans-serif;
     background-size: cover;
     background-position: center;
-    background-color: #e4dbdb;
+    background-color:#ba9c73;
 }
 
 .menu ul {
@@ -22,7 +22,6 @@ body {
 .menu li {
     list-style: none;
     line-height: 90px;
-    margin-top: 10px;
 }
 
 .search_input {
@@ -32,7 +31,7 @@ body {
 
 .menu a {
     font-size: 20px;
-    color: rgb(123, 123, 123);
+    color: rgb(255, 255, 255);
     padding: 20px 25px;
 }
 .menu a:hover{
@@ -111,7 +110,7 @@ body {
     color: #000000;
     padding: 20px 0;
     width: 100%;
-    background-color: #a9a5a5;
+    background-color: #ba9c73;
 }
 
 .footer-container {
@@ -163,7 +162,7 @@ body {
 /* Basic styling for the About Us page */
 header {
     background: #007bff;
-    color: white;
+    color: rgb(0, 0, 0);
     padding: 80px 0;
   }
   
@@ -189,4 +188,5 @@ header {
     background-color: #f8f9fa;
     border-top: 1px solid #e7e7e7;
   }
+  
   

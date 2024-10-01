@@ -1,14 +1,11 @@
-.container {
-    width: 1140px;
-    margin: auto;
-}
+
 body {
 font-family: Arial, sans-serif;
 margin: 0;
 padding: 0;
 line-height: 1.6;
-color: #fff;
-background-color: #e4dbdb;
+color: #000000;
+background-color:#ba9c73;
 background-position: center;
 }
 
@@ -30,7 +27,7 @@ background-position: center;
 
 .menu a {
     font-size: 20px;
-    color: rgb(123, 123, 123);
+    color: rgb(255, 255, 255);
     padding: 20px 25px;
 }
 .menu a:hover{
@@ -54,8 +51,7 @@ background-position: center;
 background-color: rgba(0, 0, 0, 0.6);
 padding: 50px 0;
 margin-bottom: 20px;
-color: #000000; /* Gold color */
-}
+color: #000000;}  Gold color 
 
 .contact-header h1 {
 margin-bottom: 10px;
@@ -69,8 +65,7 @@ font-size: 1.2rem;
 .contact-section {
 width: 1140px;
 margin: auto;
-background-color: rgba(0, 0, 0, 0.6);
-box-shadow: rgba(255, 0, 0, 0.35) 0px 5px 15px;
+background-color:#324c39;
 padding: 20px;
 border-radius: 10px;
 }
@@ -78,7 +73,7 @@ border-radius: 10px;
 .contact-section h2 {
 margin-top: 20px;
 font-size: 2rem;
-color: #000000; /* Gold color */
+color: #ffffff; /* Gold color */
 }
 
 .contact-section p {
@@ -94,7 +89,7 @@ margin-bottom: 15px;
 .form-group label {
 font-size: 1rem;
 font-weight: bold;
-color: #000000; /* Gold color */
+color: #ffffff; /* Gold color */
 }
 
 .form-group input,
@@ -115,9 +110,8 @@ padding: 10px 20px;
 border-radius: 5px;
 color: #ffffff;
 }
-
-.footer {
-    background-color: #a9a5a5;
+ .footer {
+background-color: #ba9c73;
 padding: 20px 0;
 margin-top: 40px;
 color: #3b3930;
@@ -166,4 +160,4 @@ color: #3b3930;
 }
 .footer-column i{
     margin-left: 10px;
-}
+} 
